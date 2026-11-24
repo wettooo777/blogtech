@@ -1,0 +1,47 @@
+body{
+    max-width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{
+    background-color: #183C63;
+    color: azure;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+main{
+    background-color: azure;
+    color: #183C63;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 25%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px #dadee2;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.artigo-autor{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #183C63;
+    height: 4em;
+    text-align: center;
+}
